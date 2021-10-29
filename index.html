@@ -1,0 +1,194 @@
+<html>
+<head>
+  <title>Realtime Drawing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 id="h1"> Case Study Between Google Lens And Mobilenet</h1>
+    <br>
+    <h2 id="h2"> Google Lens</h2>
+    <br>
+    <h3 id="h3">vs</h3>
+    <br>
+    <h4 class=" btn btn-info h4"> Mobilenet</h4>
+    <ol>
+      <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="Fingerlings.jpg" class="img-responsive">
+        </li>
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Google Lens</b> - 
+          <span> Glitter Panda Fingerling </span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Mobilenet Model</b> - 
+          <span></span>
+        </h5>
+
+        <div class="mini_result"
+      </div>
+    </ol>
+    <ol>
+      <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="Hand Snatizer.jpg" class="img-responsive">
+        </li>
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Google Lens</b> - 
+          <span> Purell Hand Sanitizer</span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Mobilenet Model</b> - 
+          <span></span>
+        </h5>
+
+        <div class="mini_result"
+      </div>
+    </ol>
+    <ol>
+      <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="Nail Polish.jpg" class="img-responsive">
+        </li>
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Google Lens</b> - 
+          <span>Sally Hansen Color Therapy Nail Polish </span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Mobilenet Model</b> - 
+          <span></span>
+        </h5>
+
+        <div class="mini_result"
+      </div>
+    </ol>
+    <ol>
+      <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="Pen.jpg" class="img-responsive">
+        </li>
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Google Lens</b> - 
+          <span> Red Mechanical Pensil</span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Mobilenet Model</b> - 
+          <span></span>
+        </h5>
+
+        <div class="mini_result"
+      </div>
+    </ol>
+    <ol>
+      <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="Phone.jpg" class="img-responsive">
+        </li>
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Google Lens</b> - 
+          <span>Apple Phone </span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Mobilenet Model</b> - 
+          <span></span>
+        </h5>
+
+        <div class="mini_result"
+      </div>
+    </ol>
+    <ol>
+      <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="Sharpener.jpg" class="img-responsive">
+        </li>
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Google Lens</b> - 
+          <span> Pensil Sharpener</span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Mobilenet Model</b> - 
+          <span></span>
+        </h5>
+
+        <div class="mini_result"
+      </div>
+    </ol>
+    <ol>
+      <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="Tape.jpg" class="img-responsive">
+        </li>
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Google Lens</b> - 
+          <span>Scotch Magic Tape </span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Mobilenet Model</b> - 
+          <span></span>
+        </h5>
+
+        <div class="mini_result"
+      </div>
+    </ol>
+    <ol>
+      <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="Walkie Talkie.jpg" class="img-responsive">
+        </li>
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Google Lens</b> - 
+          <span>Walkie Talkie Kids </span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Mobilenet Model</b> - 
+          <span></span>
+        </h5>
+
+        <div class="mini_result"
+      </div>
+    </ol>
+    <ol>
+      <div class="test_image_and_result col-xs-12">
+        <li class="col-sm-4 col-xs-12">
+          <b>Test Image - </b>
+          <img src="Water Bottle.jpg" class="img-responsive">
+        </li>
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Google Lens</b> - 
+          <span>Deer Park Natural Spring Water </span>
+        </h5>
+
+        <h5 class="col-sm-4 col-xs-12">
+          Output on <b> Mobilenet Model</b> - 
+          <span></span>
+        </h5>
+
+        <div class="mini_result"
+      </div>
+    </ol>
+</body>

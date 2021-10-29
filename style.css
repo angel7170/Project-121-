@@ -1,0 +1,22 @@
+#h1{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+body{
+    text-align: center;
+    color:darkblue;
+    background-color: rgb(118, 170, 238);
+}
+#h2{
+    font-weight: bold;
+    font-size: 15;
+}
+.h4{
+    width: 100px;
+}
+#h3{
+    color: red;
+}
+
